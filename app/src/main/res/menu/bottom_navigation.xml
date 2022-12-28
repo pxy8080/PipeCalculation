@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_item1"
+        android:icon="@drawable/jisuan"
+        android:title="@string/calculator" />
+    <item
+        android:id="@+id/navigation_item2"
+        android:icon="@drawable/gongju"
+        android:title="@string/tools" />
+    <item
+        android:id="@+id/navigation_item3"
+        android:icon="@drawable/wode"
+        android:title="@string/me" />
+</menu>

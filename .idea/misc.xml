@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/bg_account.xml" value="0.2365" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/bg_backspace.xml" value="0.2255" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/bg_me_item.xml" value="0.2455" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/bg_navigation.xml" value="0.2195" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/bg_refresh.xml" value="0.2455" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/bg_search.xml" value="0.221" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/bottom_item_click.xml" value="0.221" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/bottom_navigation_text.xml" value="0.2245" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/edittext_bg.xml" value="0.2255" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/icon_test.xml" value="0.2195" />
+        <entry key="..\:/Android/task/test/app/src/main/res/drawable/textview_border.xml" value="0.2125" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment__page113.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment__page11_012.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment__page11_456.xml" value="0.3515625" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment__page201.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment__thirdstage.xml" value="0.271875" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment_calculator.xml" value="0.2833333333333333" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment_canvas.xml" value="0.33" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment_me.xml" value="0.33" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment_page10.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment_secondstage.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment_thirdstage.xml" value="0.25277777777777777" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/fragment_tools.xml" value="0.26875" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/item_calculator.xml" value="0.3645833333333333" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/item_secondstage.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/item_thirdstage.xml" value="0.33177083333333335" />
+        <entry key="..\:/Android/task/test/app/src/main/res/layout/layout_test.xml" value="0.3651041666666667" />
+        <entry key="..\:/Android/task/test/app/src/main/res/menu/bottom_browser_item.xml" value="0.365625" />
+        <entry key="..\:/Android/task/test/app/src/main/res/menu/bottom_navigation.xml" value="0.365625" />
+        <entry key="..\:/Android/task/test/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.226" />
+        <entry key="..\:/Android/task/test/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.226" />
+        <entry key="..\:/Android/task/test/app/src/main/res/xml/bottom_navigation.xml" value="0.36614583333333334" />
+        <entry key="..\:/Android/test/app/src/main/res/layout/activity_main.xml" value="0.3605128205128205" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="android.webkit.JavascriptInterface" />
+      <item index="1" class="java.lang.String" itemvalue="org.greenrobot.eventbus.Subscribe" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

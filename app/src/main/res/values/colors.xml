@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="color_lucency">#00000000</color>
+
+    <color name="colorPrimary">#212C62</color>
+    <color name="colorTextSelected">#232860</color>
+    <color name="account_bg">#76CCF2</color>
+    <color name="button_bg">#5594F5</color>
+    <color name="button_two_dimension">#A3A3A3</color>
+    <color name="calculator_button">#7DD1ED</color>
+    <color name="calculator_bg">#DDF8FF</color>
+
+
+    <color name="me_bg">#F7F7F7</color>
+    <color name="color_op">#2C2C2C</color>
+    <color name="color_op_hint">#CCCCCC</color>
+    <color name="color_cavans">#A9A9A9</color>
+    <color name="color_656566">#656566</color>
+
+    <color name="color_8DD678">#8DD678</color>
+    <color name="color_EFF1F4">#EFF1F4</color>
+    <color name="pingminazhanshi">#F4B361</color>
+    <color name="sanweizhanshi">#5594F5</color>
+
+
+</resources>

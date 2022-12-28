@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">管道计算器</string>
+    <string name="calculator">计算</string>
+    <string name="tools">工具</string>
+    <string name="me">我的</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">标题</string>
+    <string name="calculate">计算</string>
+    <string name="search_tip">输入搜索关键字</string>
+    <string name="diameter">直径</string>
+
+    <string name="array_10">弯头计算</string>
+    <string name="array_11">摇头弯计算</string>
+    <string name="array_12">来回弯计算</string>
+    <string name="array_13">三通接弯计算</string>
+    <string name="array_14">空间偏置计算</string>
+    <string name="array_15">平行转角计算</string>
+    <string name="array_16">管道转角</string>
+    <string name="array_17">绘图计算</string>
+    <string name="array_18">参数表</string>
+
+    <string name="array_20">管道查询</string>
+    <string name="array_21">管道词典</string>
+    <string name="array_22">知识库</string>
+    <string name="array_23">三角计算</string>
+    <string name="array_24">科学计算</string>
+    <string name="array_25">视频教学</string>
+    <string name="array_26">问一问</string>
+    <string name="array_27">找人找活</string>
+    <string name="array_28">管件商城</string>
+    <string name="array_29">在线客服</string>
+    <string name="pingminazhanshi">平面展示</string>
+    <string name="sanweizhanshi">三维展示</string>
+</resources>

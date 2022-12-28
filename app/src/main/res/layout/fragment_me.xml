@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bg"
+    android:orientation="vertical"
+    tools:context="com.pyy.fragment.Fragment_me">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/account_card"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="15dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_account">
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@mipmap/icon" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="5dp"
+                            android:src="@drawable/refresh" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/bg_refresh"
+                            android:padding="2dp"
+                            android:text="刷新套餐"
+                            android:textColor="@color/white" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/icon"
+                        android:layout_marginStart="10dp"
+                        android:text="管道弯头04123"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv1"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="目前：套餐3 （安卓苹果账号互通）"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="当前软件版本1.0"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/op1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_me_item"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/taocangoumai"
+                    android:drawablePadding="10dp"
+                    android:paddingVertical="12dp"
+                    android:paddingStart="15dp"
+                    android:paddingRight="10dp"
+                    android:text="套 餐 购 买"
+                    android:textColor="@color/red"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="12dp"
+                    android:text="（购买任意套餐去广告）"
+                    android:textColor="@color/color_op_hint"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/op2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_me_item"
+                android:drawableLeft="@drawable/taocanjieshao"
+                android:drawablePadding="10dp"
+                android:paddingVertical="12dp"
+                android:paddingStart="15dp"
+                android:text="购 买 套 餐 介 绍"
+                android:textColor="@color/color_op"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/op3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_me_item"
+                android:drawableLeft="@drawable/tuijiangeipengyou"
+                android:drawablePadding="10dp"
+                android:paddingVertical="12dp"
+                android:paddingStart="15dp"
+                android:text="推 荐 给 朋 友"
+                android:textColor="@color/color_op"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/op4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_me_item"
+                android:drawableLeft="@drawable/lianxiwomen"
+                android:drawablePadding="10dp"
+                android:paddingVertical="12dp"
+                android:paddingStart="15dp"
+                android:text="联 系 我 们"
+                android:textColor="@color/color_op"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/op5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_me_item"
+                android:drawableLeft="@drawable/yijianfankui"
+                android:drawablePadding="10dp"
+                android:paddingVertical="12dp"
+                android:paddingStart="15dp"
+                android:text="意 见 反 馈"
+                android:textColor="@color/color_op"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/op6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_me_item"
+                android:drawableLeft="@drawable/haopingruchao"
+                android:drawablePadding="10dp"
+                android:paddingVertical="12dp"
+                android:paddingStart="15dp"
+                android:text="好 评 如 潮"
+                android:textColor="@color/color_op"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/op7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_me_item"
+                android:drawableLeft="@drawable/zhanghaowenti"
+                android:drawablePadding="10dp"
+                android:paddingVertical="12dp"
+                android:paddingStart="15dp"
+                android:text="账 号 问 题"
+                android:textColor="@color/color_op"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/op8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_me_item"
+                android:drawableLeft="@drawable/tuichudenglu"
+                android:drawablePadding="10dp"
+                android:paddingVertical="12dp"
+                android:paddingStart="15dp"
+                android:text="退 出 登 录"
+                android:textColor="@color/red"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
